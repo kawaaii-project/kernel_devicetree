@@ -461,8 +461,9 @@
 			label = "cont_splash_region";
 		};
 
-		disp_rdump_memory: disp_rdump_region@0xa0000000 {
-			reg = <0x0 0xA0000000 0x0 0x02300000>;
+		disp_rdump_memory: disp_rdump_region@ac000000 {
+			reg = <0x0 0xac000000 0x0 0x01000000>;
+			no-map;
 			label = "disp_rdump_region";
 		};
 
