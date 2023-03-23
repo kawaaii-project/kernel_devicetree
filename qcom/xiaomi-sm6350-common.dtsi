@@ -3,6 +3,7 @@
 #include <dt-bindings/iio/qcom,spmi-vadc.h>
 #include "lagoon-thermal-overlay.dtsi"
 #include "lagoon-sde-display.dtsi"
+#include "camera/gauguin-camera-sensor-mtp.dtsi"
 #include "dsi-panel-j17-36-02-0a-dsc-video.dtsi"
 #include "dsi-panel-j17-42-02-0b-dsc-video.dtsi"
 
