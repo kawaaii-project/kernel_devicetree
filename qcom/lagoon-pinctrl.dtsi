@@ -580,13 +580,13 @@
 			qupv3_se0_spi_active: qupv3_se0_spi_active {
 				mux {
 					pins = "gpio0", "gpio1",
-							"gpio2", "gpio3";
+							"gpio2";
 					function = "qup00";
 				};
 
 				config {
 					pins = "gpio0", "gpio1",
-							"gpio2", "gpio3";
+							"gpio2";
 					drive-strength = <6>;
 					bias-disable;
 				};
@@ -595,13 +595,13 @@
 			qupv3_se0_spi_sleep: qupv3_se0_spi_sleep {
 				mux {
 					pins = "gpio0", "gpio1",
-							"gpio2", "gpio3";
+							"gpio2";
 					function = "gpio";
 				};
 
 				config {
 					pins = "gpio0", "gpio1",
-							"gpio2", "gpio3";
+							"gpio2";
 					drive-strength = <6>;
 					bias-disable;
 				};
