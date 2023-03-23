@@ -326,7 +326,7 @@
 		pinctrl-1 = <&qupv3_se9_2uart_sleep>;
 		interrupts = <GIC_SPI 356 IRQ_TYPE_LEVEL_HIGH>;
 		qcom,wrapper-core = <&qupv3_1>;
-		status = "ok";
+		status = "disabled";
 	};
 
 	qupv3_se10_i2c: i2c@990000 {

@@ -3861,7 +3861,7 @@
 
 /*Debug UART*/
 &qupv3_se9_2uart {
-	status = "ok";
+	status = "disabled";
 };
 
 /* HS UART */
